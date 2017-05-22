@@ -7,10 +7,12 @@ public class VehiculeAerien extends Vehicule {
 	
 	//constructeur vide et initialisé
 	public VehiculeAerien(){
+		super();
 		rayonAction = 0;
 		this.setLongCourrier();
 	}
-	public VehiculeAerien(int rayonAction){
+	public VehiculeAerien(String couleur, int nbOccupants, int rayonAction){
+		super(couleur, nbOccupants);
 		this.rayonAction= rayonAction;
 		this.setLongCourrier();
 	}
@@ -32,4 +34,16 @@ public class VehiculeAerien extends Vehicule {
 			this.longCourrier= false;
 		}
 	}
+
+	//methodes
+	public void avancer(){
+		System.out.println("J’avance aérien");
+		
+	}
+	public void seGarer(){
+		System.out.println("Je me gare aérien");
+	}
+
+
 }
+
