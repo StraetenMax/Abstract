@@ -1,6 +1,6 @@
 package travail;
 
-public class Avion {
+public class Avion extends VehiculeAerien {
 	//propriétés
 	private String compagnie;
 	private boolean militaire;
@@ -10,6 +10,12 @@ public class Avion {
 		super();
 		compagnie = "";
 		militaire = true;
+	}
+	
+	public Avion(String couleur,int nbOccupants,int rayonAction,String compagnie, boolean militaire){	
+		super(couleur, nbOccupants,rayonAction);
+		this.compagnie =compagnie;
+		this.militaire =militaire;
 	}
 	
 	//accesseurs et mutateurs
