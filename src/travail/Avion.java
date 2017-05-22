@@ -26,5 +26,12 @@ public class Avion {
 		this.militaire = militaire;
 	}
 	
+	//méthodes
+	public void avancer(){
+		System.out.println("J'avance avion");
+	}
+	public void seGarer(){
+		System.out.println("Je me gare avion");
+	}
 
 }
