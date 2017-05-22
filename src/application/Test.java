@@ -20,12 +20,19 @@ public class Test {
 	
 		//appeler les méthodes
 		Va1.avancer();
+		Va1.seGarer();
 		Vt2.avancer();
+		Vt2.seGarer();
 		A1.avancer();
+		A1.seGarer();
 		M1.avancer();
+		M1.seGarer();
 		H1.avancer();
+		H1.seGarer();
 		Av1.avancer();
-	
+		Av1.seGarer();
+		
+		
 	}
 
 
