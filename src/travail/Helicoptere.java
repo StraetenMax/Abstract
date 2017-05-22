@@ -30,4 +30,12 @@ public class Helicoptere extends VehiculeAerien {
 	public void setMilitaire(boolean militaire){
 		this.militaire =militaire;
 	}
+	
+	//methodes
+	public void avancer(){
+		System.out.println("J'avance en helicoptere");
+	}
+	public void seGarer(){
+		System.out.println("Je me gare en helicoptere");
+	}
 }
