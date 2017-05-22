@@ -22,4 +22,10 @@ public class Moto extends VehiculeTerrien {
 		this.marque = marque;
 	}
 //	méthodes
+	public void avancer(){
+		System.out.println("J'avance en Moto");
+	}
+	public void seGarer(){
+		System.out.println("Je me gare en Moto");
+	}
 }
